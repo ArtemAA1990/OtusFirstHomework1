@@ -26,9 +26,9 @@ public class CheckMainPageTitle {
     @Test
     public void checkTitleMainPage() {
         driver.get(cfg.url());
-        logger.info("Открыта главная страница Otus.ru");
+        logger.info("Открыта главная страница https://otus.ru");
         assertEquals(cfg.titleMainPage(), driver.getTitle());
-        logger.info("Проверка названия главной страницы Otus.ru");
+        logger.info("Проверка названия главной страницы https://otus.ru");
     }
 
     @After

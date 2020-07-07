@@ -167,5 +167,3 @@ buildNumber.properties
 
 .idea
 *.iml
-
-.test-junit
